@@ -5,7 +5,7 @@ DevAudit is an interactive security audit dashboard engineered using modern Angu
 
 ## Preview
 ----------------------------------------------------------------
-![]()
+![preview of DevAudit](deva.png)
 
 ##  Architectural Execution Metrics
 ------------------------------------------------------------------

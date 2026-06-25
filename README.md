@@ -1,5 +1,5 @@
 #  DevAudit — Enterprise Security Verification Matrix (Angular)
--------------------------------------------------------
+---------------------------------------------------------------
 
 DevAudit is an interactive security audit dashboard engineered using modern Angular framework mechanics. It implements strict TypeScript structure checking interfaces (`interface`) combined with reactive component variable getters to calculate global code threat indexes on the fly.
 

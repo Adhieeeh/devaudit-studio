@@ -14,6 +14,8 @@ DevAudit is an interactive security audit dashboard engineered using modern Angu
 *  **Automated Getter Tracking:** Uses pure class property getters to run fast mathematical calculations and scale risk index percentages smoothly.
 
 ##  Running Instructions
+
+
 1. Setup global environment: `npm install -g @angular/cli`
 2. Download packages: `npm install`
 3. Launch execution terminal: `ng serve`

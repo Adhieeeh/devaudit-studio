@@ -3,7 +3,7 @@
 
 DevAudit is an interactive security audit dashboard engineered using modern Angular framework mechanics. It implements strict TypeScript structure checking interfaces (`interface`) combined with reactive component variable getters to calculate global code threat indexes on the fly.
 
-##
+## Preview
 ##  Architectural Execution Metrics
 *  **Rigid Class Architecture:** Leverages strongly typed class variables and data models to handle client interaction matrices without state mutation vulnerabilities.
 *  **Automated Getter Tracking:** Uses pure class property getters to run fast mathematical calculations and scale risk index percentages smoothly.

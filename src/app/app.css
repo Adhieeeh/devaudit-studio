@@ -1,0 +1,208 @@
+.app-wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #f8fafc;
+  background-color: #0b0f19;
+  min-height: 85vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #1f2937;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #3b82f6;
+  letter-spacing: -0.5px;
+}
+
+.app-header p {
+  margin: 4px 0 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.metric-card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-align: right;
+  min-width: 150px;
+}
+
+.metric-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metric-card h3 {
+  margin: 4px 0 0 0;
+  font-size: 28px;
+  font-weight: 900;
+  transition: color 0.2s ease;
+}
+
+.studio-desk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.section-header h2 {
+  font-size: 15px;
+  color: #6b7280;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.reset-btn {
+  background: none;
+  border: 1px dashed #4b5563;
+  color: #9ca3af;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.checklist-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.audit-card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  padding: 20px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.audit-card:hover {
+  border-color: #3b82f6;
+  background-color: #151d30;
+}
+
+.audit-card.checked {
+  border-color: #10b98130;
+  background-color: #11182760;
+  opacity: 0.65;
+}
+
+.card-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 75%;
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4b5563;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #0b0f19;
+  transition: all 0.1s linear;
+  flex-shrink: 0;
+}
+
+.custom-checkbox.filled {
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.item-title {
+  margin: 0;
+  font-size: 15px;
+  color: #f3f4f6;
+}
+
+.audit-card.checked .item-title {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.item-desc {
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.severity-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.insights-panel {
+  height: fit-content;
+}
+
+.panel-box {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.panel-box h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #f3f4f6;
+}
+
+.guide-intro {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #1f2937;
+  margin: 15px 0;
+}
+
+.status-alert {
+  background-color: #0b0f19;
+  border-left: 4px solid #f59e0b;
+  padding: 14px 16px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #9ca3af;
+}
